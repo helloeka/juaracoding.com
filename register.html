@@ -1,0 +1,506 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/img_favicon.png" type="image/x-icon">
+
+    <title>Juaracoding | Register</title>
+    <link rel="stylesheet" id="swap" type="text/css" href="assets/themes/option1/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+   
+    <!-- Bootstrap core CSS -->
+    <link href="assets/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
+    <link href="assets/fonts/font-awesome.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+  </head>
+  <body >
+
+    <header>
+      <div class="container-fluid jc-top-nav">
+        <div class="container">
+          <div class="row">
+            <div class="col col-sm-6 btn-sm-top">
+              <a href="#" class="btn-social-media"><img src="assets/img/img_facebook.svg"></a>
+              <a href="#" class="btn-social-media"><img src="assets/img/img_instagram.svg"></a>
+              <a href="#" class="btn-social-media"><img src="assets/img/img_twitter.svg"></a>
+              <a href="#" class="btn-social-media"><img src="assets/img/img_youtube.svg"></a>
+            </div>
+            <div class="col col-sm-6">
+              <div class="login-wrap">
+                <a href="login.html" class="btn-circle btn-style1 e mr-2 ">
+                  Login
+                </a>
+                <a href="register.html" class="btn-circle btn-style2 active">
+                  Register
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar-expand-md navbar-dark jc-nav">
+        <div class="container">
+          <div class="jc-logo-wrap">
+            <a class="navbar-brand" href="index.html"><div class="logo-juaracoding"></div></a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarCollapse">
+            <ul class="nav justify-content-center m-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-expanded="false">Learning</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="bootcamp.html">Bootcamp</a>
+                  <a class="dropdown-item" href="syllabus.html">Syllabus</a>
+                  <a class="dropdown-item" href="ecourse.html">E-Course</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="clear-fix"></div>
+        </div>
+      </nav>
+      <section class="container-fluid title-header-wrap bg-style1 ">
+        <div class="row no-padding no-margin">
+            <div class="col  no-padding">
+              <div class="jc-title-header text-center"><div class="display-flex"><h1>Formulir Pendaftaran</h1></div></div>
+            </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="container jc-login pt-5 pb-5">
+        <div class="row justify-content-md-center h-100 m-0 ">
+          <div class="col-lg-8">
+              <div class="jc-login-wrap pt-3 pb-3">
+                <form id="needs-validation" action="register-successfully.html"  novalidate>
+
+                    <h5 class="pb-1 ">Pilihan Program dan Batch</h5>
+                    <div class="border-top my-3"></div>
+                    <div class="form-group">
+                      <label>Program Yang Ingin Diambil</label>
+                      <div class="p-3 alert-secondary">
+                        <div class="row">
+                          <div class="col-sm-2">
+                            <img src="assets/img/img_bootcamp.svg"/>
+                          </div>
+                          <div class="col-sm-10 justify-content-center align-self-center">
+                            <h6>Bootcamp</h6>
+                            <p class="text-left">Kuasai skill pemrograman dalam waktu singkat.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label>Pilih Program </label>
+                          <select class="form-control" id="validationForm1" required>
+                            <option value="">Pilih salah Satu</option>
+                            <option value="SQA">SQA</option>
+                            <option value="Pyhton">Phyton</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Pilih Program
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label>Pilih Batch</label>
+                          <select class="form-control" required>
+                            <option value="">Pilih Batch</option>
+                            <option value="Batch 1, 1 Juni 2022">Batch 1, 1 Juni 2022</option>
+                            <option value="Batch 2, 10 Juni 2022">Batch 2, 10 Juni 2022</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Pilih Batch
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <h5 class="pb-1 pt-3 "> Metode Pembayaran</h5>
+                    <div class="border-top my-3"></div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label>Pilih Metode Pembayaran </label>
+                          <div class="clear-fix"></div>
+                          <div class=" btn-group btn-group-toggle btn-block " data-toggle="buttons"  role="group">
+                           
+                            <label class="btn jc-btn-toggle active col-6  mr-1 ">
+                              <input type="radio" name="options" id="option1" autocomplete="off" checked> 
+                              <h6  class="p-2 font-weight-bold">Upfront</h6>
+                              <p class="p-2"><i class="fa-solid fa-circle-info"></i> Pembayaran dilakukan <br>di muka secara bertahap</p>
+                            </label>
+                            <label class="btn jc-btn-toggle col-6 ml-1 ">
+                              <input type="radio" name="options" id="option2" autocomplete="off"> 
+                              <h6 class="p-2 font-weight-bold"> ISA</h6>
+                              <p class=" p-2"> <i class="fa-solid fa-circle-info fs-18"></i>   Pembayaran dilakukan <br>setelah bekerja <span class="font-weight-bold">(Danacita)</span></p>
+                            </label>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+
+                    <h5 class="pb-1 pt-3 ">Tentang Calon Siswa</h5>
+                    <div class="border-top my-3"></div>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label>Nama Lengkap</label>
+                          <input type="text" class="form-control" placeholder="Nama Lengkap Anda.." required>
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Isi Nama Lengkap Anda
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label>Alamat Email</label>
+                          <input type="email" class="form-control" placeholder="Alamat Email Anda.." required>
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Alamat Email Anda
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label>Jenis Kelamin</label>
+                          <select class="form-control"  required>
+                            <option value="">Pilih Salah Satu</option>
+                            <option value="Laki-Laki">Laki-Laki</option>
+                            <option value="Perempuani">Perempuan</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Pilih Jenis Kelamin Anda
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                      
+
+                        <div class=" datepicker date input-group form-group">
+                          <label>Tanggal Lahir</label>
+                          <div class="datepicker date input-group">
+                          <input type="text" placeholder="Tanggal Lahir Anda.." class="form-control" id="fecha1">
+                            <div class="input-group-append">
+                              <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                            </div>
+                          </div>
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Isi Tanggal Lahir Anda
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label>Kesibukan Saat Ini</label>
+                          <select class="form-control" required>
+                            <option value="">Pilih Salah Satu</option>
+                            <option value="Pelajar">Pelajar</option>
+                            <option value="Lulus Kuliah">Lulus Kuliah</option>
+                            <option value="Bekerja">Bekerja</option>
+                            <option value="Lainnya">Lainnya</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Pilih Kesibukan Saat Ini
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label>Pendidikan Terakhir</label>
+                          <select class="form-control" required>
+                            <option value="">Pilih Salah Satu</option>
+                            <option value="Diploma">Diploma</option>
+                            <option value="Srata 1 (S1)">Srata 1 (S1)</option>
+                            <option value="Srata 2 (S2)">Srata 2 (S2)</option>
+                            <option value="Srata 3 (S3)">Srata 3 (S3)</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Pilih Pendidikan Terakhir
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label>Program Studi</label>
+                          <select class="form-control" required>
+                            <option value="">Pilih Salah Satu</option>
+                            <option value="Ilmu Komputer">Ilmu Komputer</option>
+                            <option value="Managemen informatika">Managemen informatika</option>
+                            <option value="MIPA">MIPA</option>
+                            <option value="Network Jaringan">Network Jaringan</option>
+                            <option value="Rekayasa Perangkat Lunak">Rekayasa Perangkat Lunak</option>
+                            <option value="sistem informasi">Sistem Informasi</option>
+                            <option value="sistem komputer">Sistem Komputer</option>
+                            <option value="Teknik Informatika">Teknik Informatika</option>
+                            <option value="Teknik Komputer">Teknik Komputer</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Pilih Program Studi
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label>Alamat Lengkap</label>
+                          <textarea name="message" class="form-control" id="message" cols="20" rows="2" placeholder="Alamat Lengkap Calon Siswa.." required></textarea>
+                          
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Isi Alamat Lengkap Anda
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label>Kota</label>
+                          <input type="text" class="form-control" placeholder="Kota Tempat Tinggal.." required>
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Isi Kota Anda
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label>Kode Pos</label>
+                          <input type="number" class="form-control" placeholder="Kode Pos.." required>
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Isi Kode Pos Anda
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label>No Handphone</label>
+                          <input type="number" class="form-control" placeholder="+62.." required>
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Isi No Handphone Anda
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <label>No Kerabat Tidak Serumah</label>
+                          <input type="number" class="form-control" placeholder="+62.." required>
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Isi No Kerabat Tidak Serumah
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label>Dari Mana Mengetahui Program Ini</label>
+                          <select class="form-control" required>
+                            <option value="">Pilih Salah Satu</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="Google">Google</option>
+                            <option value="Twitter">Twitter</option>
+                            <option value="Instagram">Instagram</option>
+                            <option value="Linkedin">Linkedin</option>
+                            <option value="Website">Website</option>
+                            <option value="Teman / Keluarga">Teman / Keluarga</option>
+                            <option value="Meet Up Event">Meet Up Event</option>
+                            <option value="Lain-Lain">Lain-Lain</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Isi Dari Mana Mengetahui Program Ini
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label>Motivasi Mengikuti Program Ini </label>
+                          <input type="text" class="form-control" placeholder="Isi Motivasi Kamu" required>
+                          <div class="invalid-feedback">
+                            <i class="fa-solid fa-circle-exclamation"></i> Silakan Isi Motivasi Mengikuti Program Ini
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <label>Kode Referal (Jika Ada) </label>
+                          <input type="text" class="form-control " placeholder="Kode Referal" value="">
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <div class="custom-control custom-checkbox mb-3">
+                            <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+                            <label class="custom-control-label" for="customControlValidation1"> Dengan mengisi formulir ini saya menyetujui Syarat dan Ketentuan untuk mengikuti program yang saya daftarkan.</label>
+                            <div class="invalid-feedback"> <i class="fa-solid fa-circle-exclamation"></i> Silakan Menyetujui Syarat & Ketentuan Juaracoding</div>
+                          </div>
+                        </div>
+
+                     
+                      </div>
+                      <div class="col-lg-12 align-center">
+                        <button type="submit" href="#" class="btn btn-circle btn-block btn-style3 font-weight-bold">Kirim Formulir </button>
+                      </div>
+                    </div>
+                </form>
+              </div>
+          </div>
+        </div>
+      </section>
+      <div class="clear-fix"></div>
+      
+      <!-- FOOTER -->
+      <footer class="container-fluid pt-5 pl-0 pr-0 jc-section10">
+        <div class="container pt-5 ">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="bottom-logo-wrap pb-5">
+                <div class="logo-juaracoding-bottom"></div>
+                <div> 
+                  <a href="#" class="btn-social-media-style2"><img src="assets/img/img_facebook.svg"></a>
+                  <a href="#" class="btn-social-media-style2"><img src="assets/img/img_instagram.svg"></a>
+                  <a href="#" class="btn-social-media-style2"><img src="assets/img/img_twitter.svg"></a>
+                  <a href="#" class="btn-social-media-style2"><img src="assets/img/img_youtube.svg"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4  pb-5">
+              <div class="row">
+                <div class="col-6">
+                  <div class="jc-bottom-link ">
+                    <h1 class="mb-3">Juaracoding</h1>
+                    <ul>
+                      <li><a href="about.html">Tentang Kami</a></li>
+                      <li><a href="blog.html"> Blog</a></li>
+                      <li><a href="faq.html"> FAQ</a></li>
+                      <li><a href="contact.html">Hubungi Kami</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="jc-bottom-link">
+                    <h1 class="mb-3">Learning</h1>
+                    <ul>
+                      <li><a href="bootcamp.html">Bootcamp</a></li>
+                      <li><a href="syllabus.html">Syllabus</a></li>
+                      <li><a href="ecourse.html">E-Course</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 align-self-center pb-5">
+              <div class="jc-subcription text-center">
+                <p>Dapatkan informasi terkini juaracoding.com</p>
+                <div class="input-group mb-3 mt-3">
+                  <input type="text" class="form-control" placeholder="Email Anda..."  >
+                  <div class="input-group-append">
+                    <a href="#" class="input-group-text" id="basic-addon2">Subscribe</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="container-fluid mt-5 pt-3 pb-3 jc-copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="footer-link">
+                  <ul>
+                    <li> <a href="privacy.html" class="float-left mr-2">Privacy Policy</a></li>
+                    <li> <a href="terms.html" class="float-left mr-2">Terms & Conditions</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="copyright">
+                  <p>© Copyright 2022 JuaraCoding. All rights reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/lib/jquery/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/lib/jquery/jquery-3.2.1.slim.min.js"><\/script>')</script>
+    <script src="assets/lib/bootstrap/popper.min.js"></script>
+    <script src="assets/lib/bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+   
+
+    <script type="text/javascript">
+      $(function(){
+      var shrinkHeader = 250;
+        $(window).scroll(function() {
+          var scroll = getCurrentScroll();
+            if ( scroll >= shrinkHeader ) {
+                $('header').addClass('bsticky');
+              }
+              else {
+                  $('header').removeClass('bsticky');
+              }
+      });
+      function getCurrentScroll() {
+          return window.pageYOffset;
+          }
+      });
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          var form = document.getElementById('needs-validation');
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        }, false);
+      })();
+
+      $(function () {
+        $('.datepicker').datepicker({
+          language: "es",
+          autoclose: true,
+          format: "dd/mm/yyyy"
+        });
+      });
+
+    </script>
+  </body>
+</html>
